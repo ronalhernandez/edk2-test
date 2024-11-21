@@ -772,7 +772,7 @@ CheckRuntimePropertiesTable (
   StandardLib->RecordAssertion (
                  StandardLib,
                  AssertionType,
-                 gEfiCompliantBbTestRequiredAssertionGuid004,
+                 gEfiCompliantBbTestRequiredAssertionGuid010,
                  L"UEFI Compliant - EFI Runtime Properties Table must be implemented",
                  L"%a:%d:Status - %r, Expected - %r",
                  __FILE__,
@@ -813,7 +813,7 @@ CheckRuntimePropertiesTable (
   StandardLib->RecordAssertion (
                  StandardLib,
                  AssertionType,
-                 gEfiCompliantBbTestRequiredAssertionGuid003,
+                 gEfiCompliantBbTestRequiredAssertionGuid010,
                  L"UEFI Compliant - EFI Runtime Properties Table RuntimeServicesSupported variable must be implemented",
                  L"%a:%d:RuntimeServicesSupported - 0x%x, Expected - 0x%x",
                  __FILE__,
